@@ -1,0 +1,31 @@
+{
+    "testId": "tpch_stats_data",
+    "type": "group",
+    "description": "Test tpch (smoke) queries with table stats via jdbc",
+    "categories": [
+        "smoke"
+    ],
+    "matrices": [
+        {
+            "query-file": ".*.q",
+            "schema": "dfs.drillTestDir",
+            "output-format": "tsv",
+            "expected-file": ".*.e",
+            "verification-type": [
+                "in-memory"
+            ]
+        }
+    ],
+    "datasources": [
+        {
+            "mode": "cp",
+            "src": "Datasources/tpch-multi",
+            "dest": "table_stats/tpch-multi"
+        },
+        {
+           "mode": "gen",
+           "src": "Datasources/table_stats/table_stats_tpch_smoke.sh",
+           "dest": ""
+    	}
+    ]
+}

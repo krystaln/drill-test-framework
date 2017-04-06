@@ -1,0 +1,31 @@
+00-00\s+Screen.*
+00-01\s+Project.*
+00-02\s+SelectionVectorRemover.*
+00-03\s+Sort.*
+00-04\s+Project.*
+00-05\s+HashAgg.*
+00-06\s+Project.*
+00-07\s+Project.*
+00-08\s+HashJoin.*
+00-10\s+HashJoin.*
+00-13\s+Scan.*
+00-12\s+HashJoin.*
+00-17\s+SelectionVectorRemover.*
+00-21\s+Filter.*rowcount = 3750.0.*
+00-27\s+Scan.*
+00-16\s+HashJoin.*
+00-20\s+HashJoin.*
+00-26\s+Scan.*
+00-25\s+SelectionVectorRemover.*
+00-28\s+Filter.*rowcount = 13.333333333333334.*
+00-29\s+Scan.*
+00-19\s+HashJoin.*
+00-24\s+Scan.*
+00-23\s+Scan.*
+00-09\s+Project.*
+00-11\s+HashJoin.*
+00-15\s+Scan.*
+00-14\s+SelectionVectorRemover.*
+00-18\s+Filter.*rowcount = 1.0.*
+00-22\s+Scan.*
+\s+\{

@@ -1,0 +1,11 @@
+00-00\s+Screen.*
+00-01\s+Project.*
+00-02\s+Project.*
+00-03\s+HashAgg.*
+00-04\s+Project.*
+00-05\s+HashJoin.*
+00-07\s+Scan.*
+00-06\s+SelectionVectorRemover.*
+00-08\s+Filter.*rowcount = 4.0.*
+00-09\s+Scan.*
+\s+\{

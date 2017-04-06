@@ -1,0 +1,22 @@
+00-00\s+Screen.*
+00-01\s+Project.*
+00-02\s+StreamAgg.*
+00-03\s+Project.*
+00-04\s+MergeJoin.*
+00-06\s+SelectionVectorRemover.*
+00-08\s+Sort.*
+00-10\s+Project.*
+00-12\s+MergeJoin.*
+00-15\s+SelectionVectorRemover.*
+00-18\s+Sort.*
+00-20\s+Scan.*
+00-14\s+SelectionVectorRemover.*
+00-17\s+Sort.*
+00-19\s+Scan.*
+00-05\s+SelectionVectorRemover.*
+00-07\s+Sort.*
+00-09\s+HashAgg.*
+00-11\s+SelectionVectorRemover.*
+00-13\s+Filter.*rowcount = 750.0.*
+00-16\s+Scan.*
+\s+\{

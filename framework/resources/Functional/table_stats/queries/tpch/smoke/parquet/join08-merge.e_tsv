@@ -1,0 +1,11 @@
+00-00\s+Screen\s+:\s+rowType\s+=\s+RecordType.*
+00-01\s+Project.*
+00-02\s+StreamAgg.*
+00-03\s+Project.*
+00-04\s+Project.*
+00-05\s+HashJoin.*
+00-07\s+Scan.*
+00-06\s+SelectionVectorRemover\s+:\s+rowType\s+=\s+RecordType.*
+00-08\s+Filter.*rowcount = 28.0985.*
+00-09\s+Scan.*
+\s+\{

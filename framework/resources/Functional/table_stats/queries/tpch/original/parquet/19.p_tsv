@@ -1,0 +1,10 @@
+00-00\s+Screen.*
+00-01\s+Project.*
+00-02\s+StreamAgg.*
+00-03\s+Project.*
+00-04\s+SelectionVectorRemover.*
+00-05\s+Filter.*
+00-06\s+HashJoin.*
+00-08\s+Scan.*
+00-07\s+Scan.*
+\s+\{
